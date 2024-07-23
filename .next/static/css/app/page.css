@@ -1342,6 +1342,9 @@ video {
 .font-thin {
   font-weight: 100;
 }
+.font-bold {
+  font-weight: 700;
+}
 .text-\[\#666666\] {
   --tw-text-opacity: 1;
   color: rgb(102 102 102 / var(--tw-text-opacity));
@@ -1461,17 +1464,17 @@ video {
 
 
 .my-element {
-    background-image: url(/_next/static/media/bg.ed9b9149.svg);
+    background-image: url(/_next/static/media/bg.e53bacc7.svg);
 
 }
 
 .my-cardBG {
-    background-image: url(/_next/static/media/cardBg.06b4fd75.svg);
+    background-image: url(/_next/static/media/cardBg.64f1f133.svg);
 
 }
 
 .my-workCardBg {
-    background-image: url(/_next/static/media/workCardBg.9cf5185c.svg);
+    background-image: url(/_next/static/media/workCardBg.019ca88d.svg);
 }
 
 .my-workCardBgImg {
@@ -1479,31 +1482,31 @@ video {
 }
 
 .my-clientCardBG {
-    background-image: url(/_next/static/media/ClientCardBG.705db3d9.svg);
+    background-image: url(/_next/static/media/ClientCardBG.4f18f44e.svg);
 }
 
 .my-BG {
-    background-image: url(/_next/static/media/sun.12749a85.svg);
+    background-image: url(/_next/static/media/sun.10119510.svg);
 }
 
 .team-BG {
-    background-image: url(/_next/static/media/teamCardBG.533ec5a0.svg);
+    background-image: url(/_next/static/media/teamCardBG.a0afecfa.svg);
 }
 
 .Dp-bg {
-    background-image: url(/_next/static/media/dpFrame.5c6e9dbf.svg);
+    background-image: url(/_next/static/media/dpFrame.6fed758c.svg);
 }
 
 .achievements-bg {
-    background-image: url(/_next/static/media/achievementsBG.340ce2bd.svg);
+    background-image: url(/_next/static/media/achievementsBG.c7d50e09.svg);
 }
 
 .contactus-bg {
-    background-image: url(/_next/static/media/contactus.2ea6beb2.svg);
+    background-image: url(/_next/static/media/contactus.818de9d8.svg);
 }
 
 .contactUS-bg {
-    background-image: url(/_next/static/media/contactusBG.48b79ff5.svg);
+    background-image: url(/_next/static/media/contactusBG.fc574e0b.svg);
 }
 
 

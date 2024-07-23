@@ -1344,24 +1344,20 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
 								Take the first step towards digital success with Deltosparks by
-								your side. Our team of experts is eager to craft tailored
-								solutions that drive growth for your business. Whether you need
-								a stunning website, a powerful mobile app, or a data-driven
-								marketing campaign, we ve got you covered. Let s embark on this
-								transformative journey together.
+								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
+
+
 							</p>
 						</div>
 						<div className="mt-12 flex flex-col items-center gap-3">
 							<span className="text-sm text-center font-semibold">
-								Unlock your digital potential today
+							Build Your MVP in Less than 45 days
 							</span>
 							<div className="flex gap-3">
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black">
-									Get Started
+								<button className="text-xs px-2 font-semibold lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black">
+								Free Consultation
 								</button>
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3  bg-[#1A1A1A] rounded-full  border border-[#262626]">
-									Free Consultation
-								</button>
+						
 							</div>
 						</div>
 						<div className="w-full mt-12 rounded-xl flex flex-col gap-6  bg-[#0f0f0f] p-">
