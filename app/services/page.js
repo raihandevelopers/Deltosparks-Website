@@ -172,15 +172,7 @@ const Services = () => {
 								<span className="text-[#666666]">Digital Solutions</span>
 							</h1>
 							<p className="text-[#c7c5c5] sm:text-sm text-xs">
-								At DigitX, we offer a comprehensive suite of digital solutions
-								designed to propel your business to new heights in the digital
-								realm. With a team of skilled professionals, cutting-edge
-								technologies, and a passion for innovation, we are committed to
-								delivering exceptional results for every project we undertake.
-								From captivating web design that leaves a lasting impression to
-								seamless web development that ensures optimal functionality, we
-								cover every aspect of your online presence.
-							</p>
+							At Deltosparks, we offer a comprehensive suite of digital solutions designed to propel your business to new heights. Our skilled team leverages cutting-edge technologies to deliver exceptional results, from seamless website development and app development to robust backend solutions, AI/ML innovations, blockchain technology and dApp development, as well as SEO and digital marketing strategies. We cover every aspect of your digital needs with a passion for innovation and excellence.							</p>
 						</div>
 					</div>
 				</ScrollAnimation>
@@ -190,27 +182,19 @@ const Services = () => {
 							<span className="text-[#808080]">Our</span> Services
 						</h1>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
-							At DigitX, we are committed to providing exceptional digital
-							solutions tailored to suit your unique business needs. Our
-							comprehensive service offerings cover a wide spectrum of digital
-							disciplines, including web design, app development, web
-							development, and marketing.
-						</p>
+						Our comprehensive range of services includes website development, mobile app development, web design, backend solutions, AI, machine learning, blockchain technology, SEO, data-driven marketing strategies, and more. Whether you’re a startup or an established enterprise, our experts will craft solutions that drive results.
+
+</p>
 						<div className="w-full flex lg:flex-row flex-col gap-10 ">
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] h-[500px] rounded-2xl my-cardBG flex flex-col justify-center items-center gap-10">
 										<Image src={cardIconOne} width={100} height={100} alt="" />
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
-											<h3 className="text-xl font-semibold">Web Design</h3>
+											<h3 className="text-xl font-semibold">Website Development
+											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-												Our Web Design service is all about creating visually
-												stunning and user-friendly websites that leave a lasting
-												impression on your audience. We blend creativity with
-												functionality to deliver websites that showcase your
-												brand s identity while ensuring seamless navigation and
-												optimal user experience.
-											</p>
+											Unlock your online potential with Deltosparks. Our web development services create responsive, dynamic websites tailored to your needs, ensuring seamless user experiences across all devices. From e-commerce platforms to interactive web applications, our expert developers bring your vision to life, making your online journey a success.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -250,14 +234,11 @@ const Services = () => {
 										<Image src={cardIconTwo} width={100} height={100} alt="" />
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
-												Web Development{" "}
+											Mobile App Development
+											{" "}
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-												Our Web Development service is focused on turning your
-												website into a powerful digital asset. We utilize the
-												latest technologies and industry best practices to build
-												dynamic and scalable websites that cater to your
-												business objectives.
+											Embrace mobility with confidence. Our mobile app development services harness the power of mobile devices, creating intuitive and high-performance apps for iOS, Android, and cross-platform. We ensure seamless experiences that captivate your audience and boost engagement.
 											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
@@ -305,15 +286,11 @@ const Services = () => {
 										/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold text-center">
-												Mobile App Development
+											Web Design
+
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-												With our Mobile App Development service, we harness the
-												power of mobile technology to create cutting-edge
-												applications that engage your customers on-the-go. Our
-												team Our team of skilled developers builds feature-rich
-												and intuitive apps for both Android and iOS platforms.
-											</p>
+											Elevate your brand aesthetics with Deltosparks. Our web design services create visually striking, user-friendly interfaces that reflect your brand's identity. Our creative team blends aesthetics with functionality, delivering captivating user experiences that keep visitors coming back. Let us transform your online presence and showcase your brand's true essence.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -358,17 +335,10 @@ const Services = () => {
 										/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
-												Digital Marketing
+											AI & Machine Learning
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-												In the digital age, marketing is a critical aspect of
-												your business s success. Our Digital Marketing service
-												employs data-driven strategies to enhance your brand s
-												visibility, attract targeted traffic, and boost
-												conversions. From SEO and PPC campaigns to social media
-												marketing, we ve got your digital marketing needs
-												covered.
-											</p>
+											Drive your business forward with Deltosparks. Our AI and machine learning services optimize operations with predictive analytics, natural language processing, and intelligent automation. Stay ahead with our data-driven solutions and harness the full potential of AI and machine learning.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -411,12 +381,7 @@ const Services = () => {
 							<span className="text-[#808080]">Categories of</span> Services
 						</h1>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
-							At DigitX, we are committed to providing exceptional digital
-							solutions tailored to suit your unique business needs. Our
-							comprehensive service offerings cover a wide spectrum of digital
-							disciplines, including web design, app development, web
-							development, and marketing.
-						</p>
+						At Deltosparks, we provide exceptional digital solutions tailored to your unique business needs. Our services include web design, app development, web development, AI/ML, blockchain technology, dApp development, and SEO/digital marketing.						</p>
 						<ScrollAnimation variants={scaleUpVariants}>
 							<div className="w-full lg:flex-row flex-col flex gap-5">
 								<div className="lg:w-[22%] flex-wrap  flex flex-row  gap-2 lg:flex-col p-5 lg:justify-start justify-center lg:items-stretch items-center">
@@ -441,7 +406,7 @@ const Services = () => {
 												fill="white"
 											/>
 										</svg>
-										<span className="text-xs lg:text-base">Web Design</span>
+										<span className="text-xs lg:text-base">Website Development</span>
 									</button>
 
 									<button
@@ -467,7 +432,7 @@ const Services = () => {
 											/>
 										</svg>
 										<span className="text-xs lg:text-base ">
-											Web Development
+											Website Development
 										</span>
 									</button>
 
@@ -537,7 +502,7 @@ const Services = () => {
 												} transition-opacity duration-500`}
 											>
 												<div className="flex flex-col gap-3">
-													<h4 className="text-lg font-semibold">Web Design</h4>
+													<h4 className="text-lg font-semibold">Website Development</h4>
 													<p className="text-[#8C8C8C] text-sm">
 														Web Design is the art and science of creating
 														visually appealing and user-friendly websites that

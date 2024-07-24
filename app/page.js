@@ -1354,9 +1354,13 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 							Build Your MVP in Less than 45 days
 							</span>
 							<div className="flex gap-3">
-								<button className="text-xs px-2 font-semibold lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black">
-								Free Consultation
-								</button>
+							<Link
+											href={"https://calendly.com/theraihan/talk-with-raihan"}
+											target="_blank"
+											 className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black font-semibold">
+										
+											Free Consultation
+										</Link>
 						
 							</div>
 						</div>
@@ -1366,7 +1370,7 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 									Online Inquiry Form
 								</h4>
 								<p className="lg:text-sm text-center text-xs text-[#808080]">
-									Please fill in the following details, and we ll get back to
+									Please fill in the following details, and we'll get back to
 									you within 24 hours.
 								</p>
 							</div>
@@ -1453,8 +1457,10 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 													<option value="DE">SAAS Development</option>
 													<option value="DE">AI & Machine Learning</option>
 													<option value="DE">Automation</option>
+													<option value="DE">Blockchain Development</option>
 													<option value="DE">SEO/Digital Marketing</option>
 													<option value="DE">Augmented/Virtual Reality</option>
+													<option value="DE">Other</option>
 
 												</select>
 											</div>
