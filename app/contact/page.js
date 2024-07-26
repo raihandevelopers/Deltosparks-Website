@@ -90,13 +90,9 @@ const Contact = () => {
 							<span className="text-[#808080]">Get in</span> Touch with Us Today!
 						</h1>
 						<p className="text-sm text-[#808080] text-center lg:w-[900px]">
-							At DigitX, we value your inquiries, feedback, and collaborations.
-							Whether you are interested in our digital services, have questions
-							about our projects, or want to explore potential partnerships, we
-							encourage you to reach out to our dedicated team. Connect with us
-							through any of the channels below, and we ll be delighted to assist
-							you on your digital journey.
-						</p>
+						At Deltospark, we value your inquiries, feedback, and collaborations. Whether you are interested in our digital services, have questions about our projects, or want to explore potential partnerships, our dedicated team is here to assist you. Fill out the form below, and we'll get back to you within 24 hours. We look forward to supporting you on your digital journey.
+
+</p>
 						<div className="w-full">
 							<ScrollAnimation variants={scaleUpVariants}>
 								<div className="rounded-xl flex flex-col gap-6 border border-[#1F1F1F] bg-[#0f0f0f] p-4">
@@ -175,10 +171,16 @@ const Contact = () => {
 													onChange={handleChange}
 												>
 													<option value="">Choose your services</option>
-													<option value="US">United States</option>
-													<option value="CA">Canada</option>
-													<option value="FR">France</option>
-													<option value="DE">Germany</option>
+													<option value="Website Development">Website Development</option>
+													<option value="Mobile App Development">Mobile App Development</option>
+													<option value="Web Design">Web Design</option>
+													<option value="SAAS Development">SAAS Development</option>
+													<option value="AI & Machine Learning">AI & Machine Learning</option>
+													<option value="Automation">Automation</option>
+													<option value="Blockchain Development">Blockchain Development</option>
+													<option value="SEO/Digital Marketing">SEO/Digital Marketing</option>
+													<option value="Augmented/Virtual Reality">Augmented/Virtual Reality</option>
+													<option value="Other">Other</option>
 												</select>
 											</div>
 											<div className="h-full w-full lg:w-1/3 flex flex-col justify-center px-5 gap-2">
@@ -391,16 +393,14 @@ const Contact = () => {
 											</defs>
 										</svg>
 
-										<h3>Our Resopnse</h3>
+										<h3>Agile Development Process
+										</h3>
 									</div>
 									<div className="w-full h-[60%]">
 										<p className="text-sm text-[#8C8C8C]">
-											We understand the importance of timely responses, and our team
-											is committed to addressing your inquiries promptly. Whether you
-											have a specific project in mind, need advice on digital
-											strategies, or want to explore partnership opportunities, we are
-											here to assist you at every step.
-										</p>
+										Our agile development process ensures that your projects are completed efficiently and effectively. We prioritize flexibility, collaboration, and customer satisfaction, enabling us to adapt to changing requirements and deliver outstanding results on time and within budget.
+
+</p>
 									</div>
 								</div>
 							</ScrollAnimation>
@@ -695,27 +695,26 @@ const Contact = () => {
 								Ready to Transform Your Digital Presence?
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
-								Take the first step towards digital success with Deltosparksby your
-								side. Our team of experts is eager to craft tailored solutions
-								that drive growth for your business. Whether you need a stunning
-								website, a powerful mobile app, or a data-driven marketing
-								campaign, we ve got you covered. Let s embark on this
-								transformative journey together.
+							Take the first step towards digital success with Deltosparks by
+								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 							</p>
 						</div>
 						<div className="mt-12 flex flex-col items-center gap-3">
 							<span className="text-sm text-center font-semibold">
-								Unlock your digital potential today
+							Build Your MVP in Less than 45 days
 							</span>
 							<div className="flex gap-3">
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black">
-									Get Started
-								</button>
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3  bg-[#1A1A1A] rounded-full  border border-[#262626]">
-									Free Consultation
-								</button>
+							<Link
+											href={"https://calendly.com/theraihan/talk-with-raihan"}
+											target="_blank"
+											 className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black font-semibold">
+										
+											Free Consultation
+										</Link>
+						
 							</div>
 						</div>
+
 						<div className="h-[390px] w-full flex justify-center items-center">
 							<h1 className="text-4xl">LOGO</h1>
 						</div>

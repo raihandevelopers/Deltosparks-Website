@@ -1451,16 +1451,16 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 													onChange={handleChange}
 												>
 													<option value="">Choose your services</option>
-													<option value="US">Website Development</option>
-													<option value="CA">Mobile App Development</option>
-													<option value="FR">Web Design</option>
-													<option value="DE">SAAS Development</option>
-													<option value="DE">AI & Machine Learning</option>
-													<option value="DE">Automation</option>
-													<option value="DE">Blockchain Development</option>
-													<option value="DE">SEO/Digital Marketing</option>
-													<option value="DE">Augmented/Virtual Reality</option>
-													<option value="DE">Other</option>
+													<option value="Website Development">Website Development</option>
+													<option value="Mobile App Development">Mobile App Development</option>
+													<option value="Web Design">Web Design</option>
+													<option value="SAAS Development">SAAS Development</option>
+													<option value="AI & Machine Learning">AI & Machine Learning</option>
+													<option value="Automation">Automation</option>
+													<option value="Blockchain Development">Blockchain Development</option>
+													<option value="SEO/Digital Marketing">SEO/Digital Marketing</option>
+													<option value="Augmented/Virtual Reality">Augmented/Virtual Reality</option>
+													<option value="Other">Other</option>
 
 												</select>
 											</div>

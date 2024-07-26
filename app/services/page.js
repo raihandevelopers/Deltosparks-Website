@@ -2126,17 +2126,19 @@ const Services = () => {
 							</p>
 						</div>
 						<div className="mt-12 flex flex-col items-center gap-3">
-							<span className="text-sm text-center font-semibold">
-								Unlock your digital potential today
+						<span className="text-sm text-center font-semibold">
+							Build Your MVP in Less than 45 days
 							</span>
 							<div className="flex gap-3">
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black">
-									Get Started
-								</button>
-								<button className="text-xs px-2 lg:px-4 py-2 lg:py-3  bg-[#1A1A1A] rounded-full  border border-[#262626]">
-									Free Consultation
-								</button>
-							</div>
+							<Link
+											href={"https://calendly.com/theraihan/talk-with-raihan"}
+											target="_blank"
+											 className="text-xs px-2 lg:px-4 py-2 lg:py-3 bg-white rounded-full text-black font-semibold">
+										
+											Free Consultation
+										</Link>
+						
+						</div>
 						</div>
 						<div className="w-full mt-12 rounded-xl flex flex-col gap-6  bg-[#0f0f0f] p-">
 							<div className="w-full h-[80px] flex flex-col items-center justify-center p-2 gap-4">
@@ -2215,11 +2217,17 @@ const Services = () => {
 											className="bg-[#0f0f0f] border border-[#1F1F1F] rounded-full py-3 px-3 w-full text-sm placeholder:text-sm placeholder:text-[#666666] focus:outline-none appearance-none text-[#666666]"
 											onChange={handleChange}
 										>
-											<option value="">Choose your services</option>
-											<option value="US">United States</option>
-											<option value="CA">Canada</option>
-											<option value="FR">France</option>
-											<option value="DE">Germany</option>
+													<option value="">Choose your services</option>
+													<option value="Website Development">Website Development</option>
+													<option value="Mobile App Development">Mobile App Development</option>
+													<option value="Web Design">Web Design</option>
+													<option value="SAAS Development">SAAS Development</option>
+													<option value="AI & Machine Learning">AI & Machine Learning</option>
+													<option value="Automation">Automation</option>
+													<option value="Blockchain Development">Blockchain Development</option>
+													<option value="SEO/Digital Marketing">SEO/Digital Marketing</option>
+													<option value="Augmented/Virtual Reality">Augmented/Virtual Reality</option>
+													<option value="Other">Other</option>
 										</select>
 									</div>
 									<div className="h-full w-full lg:w-1/3 flex flex-col justify-center px-5 gap-2">
