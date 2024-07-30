@@ -391,7 +391,7 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="flex justify-between w-[90%] mx-auto h-16 items-center  text-[#666666] text-xs md:text-sm">
-						<span className="">@2024 DigitX. All Rights Reserved.</span>
+						<span className="">@2024 Deltospark. All Rights Reserved.</span>
 						<div>Version 1.0</div>
 						<div className="sm:block hidden">
 							<span>Privacy Policy</span>

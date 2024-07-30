@@ -148,7 +148,7 @@ const About = () => {
 							<span className="text-[#666666]">in the Digital Age</span>
 						</h1>
 						<p className="text-[#c7c5c5] sm:text-sm text-xs">
-							Welcome to DigitX, your trusted partner in the dynamic world of
+							Welcome to Deltospark, your trusted partner in the dynamic world of
 							digital solutions. We are a passionate team of creative minds,
 							tech enthusiasts, and digital strategists, dedicated to empowering
 							businesses and individuals in the digital realm. Our mission is to
@@ -1540,7 +1540,7 @@ const About = () => {
 										<div className="w-full lg:px-4 flex flex-col gap-4">
 											<div className="w-full h-[40px] flex justify-between items-center">
 												<h3 className="sm:text-base text-sm">
-													Foundation of DigitX
+													Foundation of Deltospark
 												</h3>
 												<div className="px-4 py-2 rounded-full border-[#1F1F1F] border flex items-center gap-2">
 													<svg
@@ -1945,13 +1945,9 @@ const About = () => {
 							Ready to Transform Your Digital Presence?
 						</h1>
 						<p className="text-sm text-center text-[#808080]">
-							Take the first step towards digital success with Deltosparkby your
-							side. Our team of experts is eager to craft tailored solutions
-							that drive growth for your business. Whether you need a stunning
-							website, a powerful mobile app, or a data-driven marketing
-							campaign, we ve got you covered. Let s embark on this
-							transformative journey together.
-						</p>
+						Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
+
+</p>
 					</div>
 					<div className="mt-12 flex flex-col items-center gap-3">
 					<span className="text-sm text-center font-semibold">

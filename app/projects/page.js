@@ -169,7 +169,7 @@ const Projects = () => {
 							Vision
 						</h1>
 						<p className="text-[#c7c5c5]  sm:text-sm text-xs">
-							At DigitX, we are committed to empowering your digital vision with
+							At Deltospark, we are committed to empowering your digital vision with
 							innovative solutions tailored to your unique needs. Our team of
 							skilled professionals, coupled with cutting-edge technologies,
 							ensures that we deliver exceptional results that elevate your
@@ -1759,7 +1759,7 @@ const Projects = () => {
 						Upcoming <span className="text-[#808080]">Projects</span>
 					</h1>
 					<p className="text-sm text-[#808080] text-center lg:w-[900px]">
-						At DigitX, we are continually working on exciting new projects to
+						At Deltospark, we are continually working on exciting new projects to
 						push the boundaries of digital innovation and deliver exceptional
 						solutions to our valued clients. While we are thrilled to share our
 						upcoming projects with you, we understand the importance of
@@ -2402,12 +2402,9 @@ const Projects = () => {
 							Ready to Transform Your Digital Presence?
 						</h1>
 						<p className="text-sm text-center text-[#808080]">
-							Take the first step towards digital success with Deltosparkby your
-							side. Our team of experts is eager to craft tailored solutions
-							that drive growth for your business. Whether you need a stunning
-							website, a powerful mobile app, or a data-driven marketing
-							campaign, we ve got you covered. Let s embark on this
-							transformative journey together.
+						Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
+
+
 						</p>
 					</div>
 					<div className="mt-12 flex flex-col items-center gap-3">

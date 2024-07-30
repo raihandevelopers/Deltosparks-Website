@@ -400,10 +400,11 @@ const Services = () => {
 											xmlns="http://www.w3.org/2000/svg"
 										>
 											<path
-												fillRule="evenodd"
-												clipRule="evenodd"
-												d="M12 1.5C12.4142 1.5 12.75 1.83579 12.75 2.25V4.5C12.75 4.91421 12.4142 5.25 12 5.25C11.5858 5.25 11.25 4.91421 11.25 4.5V2.25C11.25 1.83579 11.5858 1.5 12 1.5ZM5.63604 4.13604C5.92893 3.84315 6.40381 3.84315 6.6967 4.13604L8.28769 5.72703C8.58058 6.01992 8.58058 6.4948 8.28769 6.78769C7.9948 7.08058 7.51992 7.08058 7.22703 6.78769L5.63604 5.1967C5.34315 4.90381 5.34315 4.42893 5.63604 4.13604ZM18.364 4.13604C18.6569 4.42893 18.6569 4.90381 18.364 5.1967L16.773 6.78769C16.4801 7.08058 16.0052 7.08058 15.7123 6.78769C15.4194 6.4948 15.4194 6.01992 15.7123 5.72703L17.3033 4.13604C17.5962 3.84315 18.0711 3.84315 18.364 4.13604ZM11.5484 8.63179C11.8602 8.54824 12.1905 8.67359 12.3684 8.94299L17.5955 16.8599C17.7627 17.113 17.7609 17.4419 17.591 17.6932C17.421 17.9445 17.1165 18.0687 16.8193 18.0079L14.722 17.5787L15.7668 21.4777C15.874 21.8778 15.6365 22.289 15.2364 22.3963C14.8363 22.5035 14.4251 22.266 14.3179 21.8659L13.2732 17.967L11.6717 19.3872C11.4447 19.5884 11.1189 19.6332 10.8461 19.5005C10.5733 19.3678 10.4073 19.0839 10.4254 18.7811L10.9939 9.3113C11.0132 8.98905 11.2366 8.71534 11.5484 8.63179ZM3 10.5C3 10.0858 3.33579 9.75 3.75 9.75H6C6.41421 9.75 6.75 10.0858 6.75 10.5C6.75 10.9142 6.41421 11.25 6 11.25H3.75C3.33579 11.25 3 10.9142 3 10.5ZM17.25 10.5C17.25 10.0858 17.5858 9.75 18 9.75H20.25C20.6642 9.75 21 10.0858 21 10.5C21 10.9142 20.6642 11.25 20.25 11.25H18C17.5858 11.25 17.25 10.9142 17.25 10.5ZM8.28769 14.2123C8.58058 14.5052 8.58058 14.9801 8.28769 15.273L6.6967 16.864C6.40381 17.1569 5.92893 17.1569 5.63604 16.864C5.34315 16.5711 5.34315 16.0962 5.63604 15.8033L7.22703 14.2123C7.51992 13.9194 7.9948 13.9194 8.28769 14.2123Z"
-												fill="white"
+												d="M6.75 7.5L9.75 9.75L6.75 12M11.25 12H14.25M5.25 20.25H18.75C19.9926 20.25 21 19.2426 21 18V6C21 4.75736 19.9926 3.75 18.75 3.75H5.25C4.00736 3.75 3 4.75736 3 6V18C3 19.2426 4.00736 20.25 5.25 20.25Z"
+												stroke="white"
+												strokeWidth="1.5"
+												strokeLinecap="round"
+												strokeLinejoin="round"
 											/>
 										</svg>
 										<span className="text-xs lg:text-base">Website Development</span>
@@ -424,7 +425,7 @@ const Services = () => {
 											xmlns="http://www.w3.org/2000/svg"
 										>
 											<path
-												d="M6.75 7.5L9.75 9.75L6.75 12M11.25 12H14.25M5.25 20.25H18.75C19.9926 20.25 21 19.2426 21 18V6C21 4.75736 19.9926 3.75 18.75 3.75H5.25C4.00736 3.75 3 4.75736 3 6V18C3 19.2426 4.00736 20.25 5.25 20.25Z"
+												d="M10.5 1.5H8.25C7.00736 1.5 6 2.50736 6 3.75V20.25C6 21.4926 7.00736 22.5 8.25 22.5H15.75C16.9926 22.5 18 21.4926 18 20.25V3.75C18 2.50736 16.9926 1.5 15.75 1.5H13.5M10.5 1.5V3H13.5V1.5M10.5 1.5H13.5M10.5 20.25H13.5"
 												stroke="white"
 												strokeWidth="1.5"
 												strokeLinecap="round"
@@ -432,7 +433,7 @@ const Services = () => {
 											/>
 										</svg>
 										<span className="text-xs lg:text-base ">
-											Website Development
+											Mobile App Development
 										</span>
 									</button>
 
@@ -451,15 +452,14 @@ const Services = () => {
 											xmlns="http://www.w3.org/2000/svg"
 										>
 											<path
-												d="M10.5 1.5H8.25C7.00736 1.5 6 2.50736 6 3.75V20.25C6 21.4926 7.00736 22.5 8.25 22.5H15.75C16.9926 22.5 18 21.4926 18 20.25V3.75C18 2.50736 16.9926 1.5 15.75 1.5H13.5M10.5 1.5V3H13.5V1.5M10.5 1.5H13.5M10.5 20.25H13.5"
-												stroke="white"
-												strokeWidth="1.5"
-												strokeLinecap="round"
-												strokeLinejoin="round"
+												fillRule="evenodd"
+												clipRule="evenodd"
+												d="M12 1.5C12.4142 1.5 12.75 1.83579 12.75 2.25V4.5C12.75 4.91421 12.4142 5.25 12 5.25C11.5858 5.25 11.25 4.91421 11.25 4.5V2.25C11.25 1.83579 11.5858 1.5 12 1.5ZM5.63604 4.13604C5.92893 3.84315 6.40381 3.84315 6.6967 4.13604L8.28769 5.72703C8.58058 6.01992 8.58058 6.4948 8.28769 6.78769C7.9948 7.08058 7.51992 7.08058 7.22703 6.78769L5.63604 5.1967C5.34315 4.90381 5.34315 4.42893 5.63604 4.13604ZM18.364 4.13604C18.6569 4.42893 18.6569 4.90381 18.364 5.1967L16.773 6.78769C16.4801 7.08058 16.0052 7.08058 15.7123 6.78769C15.4194 6.4948 15.4194 6.01992 15.7123 5.72703L17.3033 4.13604C17.5962 3.84315 18.0711 3.84315 18.364 4.13604ZM11.5484 8.63179C11.8602 8.54824 12.1905 8.67359 12.3684 8.94299L17.5955 16.8599C17.7627 17.113 17.7609 17.4419 17.591 17.6932C17.421 17.9445 17.1165 18.0687 16.8193 18.0079L14.722 17.5787L15.7668 21.4777C15.874 21.8778 15.6365 22.289 15.2364 22.3963C14.8363 22.5035 14.4251 22.266 14.3179 21.8659L13.2732 17.967L11.6717 19.3872C11.4447 19.5884 11.1189 19.6332 10.8461 19.5005C10.5733 19.3678 10.4073 19.0839 10.4254 18.7811L10.9939 9.3113C11.0132 8.98905 11.2366 8.71534 11.5484 8.63179ZM3 10.5C3 10.0858 3.33579 9.75 3.75 9.75H6C6.41421 9.75 6.75 10.0858 6.75 10.5C6.75 10.9142 6.41421 11.25 6 11.25H3.75C3.33579 11.25 3 10.9142 3 10.5ZM17.25 10.5C17.25 10.0858 17.5858 9.75 18 9.75H20.25C20.6642 9.75 21 10.0858 21 10.5C21 10.9142 20.6642 11.25 20.25 11.25H18C17.5858 11.25 17.25 10.9142 17.25 10.5ZM8.28769 14.2123C8.58058 14.5052 8.58058 14.9801 8.28769 15.273L6.6967 16.864C6.40381 17.1569 5.92893 17.1569 5.63604 16.864C5.34315 16.5711 5.34315 16.0962 5.63604 15.8033L7.22703 14.2123C7.51992 13.9194 7.9948 13.9194 8.28769 14.2123Z"
+												fill="white"
 											/>
 										</svg>
 										<span className="text-xs lg:text-base">
-											Mobile App Development
+											Web Design
 										</span>
 									</button>
 
@@ -487,9 +487,38 @@ const Services = () => {
 										</svg>
 										<span className="text-xs lg:text-base ">
 											{" "}
-											Digital Marketing
+											AI/Machine Learning
 										</span>
 									</button>
+
+									<button
+										onClick={() => toggleVisibility(4)}
+										className={`max-w-[250px] min-w-[200px] flex p-2 gap-3 rounded-xl border border-[#1F1F1F] text-left text-sm py-4 ${
+											currentVisibleIndex === 4 ? "bg-[#1A1A1A]" : "bg-none"
+										} transition-opacity duration-1000`}
+									>
+										<svg
+											className="hidden lg:block"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M12 3V5.25M18.364 5.63604L16.773 7.22703M21 12H18.75M18.364 18.364L16.773 16.773M12 18.75V21M7.22703 16.773L5.63604 18.364M5.25 12H3M7.22703 7.22703L5.63604 5.63604M15.75 12C15.75 14.0711 14.0711 15.75 12 15.75C9.92893 15.75 8.25 14.0711 8.25 12C8.25 9.92893 9.92893 8.25 12 8.25C14.0711 8.25 15.75 9.92893 15.75 12Z"
+												stroke="white"
+												strokeWidth="1.5"
+												strokeLinecap="round"
+												strokeLinejoin="round"
+											/>
+										</svg>
+										<span className="text-xs lg:text-base ">
+											{" "}
+											Blockchain Development
+										</span>
+									</button>
+
 								</div>
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className={`lg:w-[78%] px-4`}>
@@ -504,18 +533,59 @@ const Services = () => {
 												<div className="flex flex-col gap-3">
 													<h4 className="text-lg font-semibold">Website Development</h4>
 													<p className="text-[#8C8C8C] text-sm">
-														Web Design is the art and science of creating
-														visually appealing and user-friendly websites that
-														reflect your brand identity and resonate with your
-														target audience. At DigitX, our web design process
-														involves a careful blend of creativity, user
-														experience (UX) design, and cutting-edge
-														technologies. We take the time to understand your
-														business goals, target market, and unique selling
-														points to create a website that not only looks great
-														but also drives results.
-													</p>
+													At Deltosparks, we specialize in responsive website development using React, Next.js, and other cutting-edge technologies. We create visually appealing, user-friendly websites that reflect your brand and engage your audience, ensuring your site drives results and meets your business goals.													</p>
 												</div>
+												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+															Website Development Portfolio
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Check out some of our most recent Website Development
+															projects in the table below
+														</p>
+													</div>
+													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio1}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio2}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+													</div>
+													<Link
+														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
+														href="/#"
+													>
+														View All Projects
+														<div className="p-1 rounded-full hidden sm:block">
+															<svg
+																width="25"
+																height="24"
+																viewBox="0 0 25 24"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
+																	fill="white"
+																/>
+															</svg>
+														</div>
+													</Link>
+													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+												</div>
+
 												<div className="w-full sm:p-8 p-2  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
@@ -634,63 +704,13 @@ const Services = () => {
 														</div>
 													</div>
 												</div>
-												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
-													<div className="px-4 flex flex-col gap-4">
-														<h4 className="text-lg font-semibold">
-															Web Design Portfolio
-														</h4>
-														<p className="text-sm text-[#808080]">
-															Check out some of our most recent Web Design
-															projects in the table below
-														</p>
-													</div>
-													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio1}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio2}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-													</div>
-													<Link
-														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
-													>
-														View All Projects
-														<div className="p-1 rounded-full hidden sm:block">
-															<svg
-																width="25"
-																height="24"
-																viewBox="0 0 25 24"
-																fill="none"
-																xmlns="http://www.w3.org/2000/svg"
-															>
-																<path
-																	fillRule="evenodd"
-																	clipRule="evenodd"
-																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
-																	fill="white"
-																/>
-															</svg>
-														</div>
-													</Link>
-													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
-												</div>
 												<div className="w-full lg:p-8 lg:py-12 py-5 border border-[#1F1F1F] mt-10 rounded-xl flex-col  lg:flex gap-8 relative hidden">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
 															Our Web Design Competed Projects
 														</h4>
 														<p className="text-sm text-[#808080]">
-															At DigitX, we are dedicated to creating
+															At Deltospark, we are dedicated to creating
 															transformative mobile apps that empower your
 															business and enrich your users experiences.
 														</p>
@@ -764,20 +784,61 @@ const Services = () => {
 												} transition-opacity duration-500`}
 											>
 												<div className="flex flex-col gap-3">
-													<h4 className="text-lg font-semibold">Web Design1</h4>
+													<h4 className="text-lg font-semibold">Mobile App Development</h4>
 													<p className="text-[#8C8C8C] text-sm">
-														Web Design is the art and science of creating
-														visually appealing and user-friendly websites that
-														reflect your brand identity and resonate with your
-														target audience. At DigitX, our web design process
-														involves a careful blend of creativity, user
-														experience (UX) design, and cutting-edge
-														technologies. We take the time to understand your
-														business goals, target market, and unique selling
-														points to create a website that not only looks great
-														but also drives results.
-													</p>
+													At Deltosparks, we specialize in mobile app development using Flutter, React Native, and native languages. We create intuitive, high-performance cross-platform and hybrid apps that captivate your audience and drive results, all while reflecting your business goals and brand identity.													</p>
 												</div>
+																								<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+														Mobile App Development Portfolio
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Check out some of our most recent Web Design
+															projects in the table below
+														</p>
+													</div>
+													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio1}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio2}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+													</div>
+													<Link
+														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
+														href="/#"
+													>
+														View All Projects
+														<div className="p-1 rounded-full hidden sm:block">
+															<svg
+																width="25"
+																height="24"
+																viewBox="0 0 25 24"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
+																	fill="white"
+																/>
+															</svg>
+														</div>
+													</Link>
+													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+												</div>
+
 												<div className="w-full sm:p-8 p-2  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
@@ -896,63 +957,13 @@ const Services = () => {
 														</div>
 													</div>
 												</div>
-												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
-													<div className="px-4 flex flex-col gap-4">
-														<h4 className="text-lg font-semibold">
-															Web Design Portfolio
-														</h4>
-														<p className="text-sm text-[#808080]">
-															Check out some of our most recent Web Design
-															projects in the table below
-														</p>
-													</div>
-													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio1}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio2}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-													</div>
-													<Link
-														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
-													>
-														View All Projects
-														<div className="p-1 rounded-full hidden sm:block">
-															<svg
-																width="25"
-																height="24"
-																viewBox="0 0 25 24"
-																fill="none"
-																xmlns="http://www.w3.org/2000/svg"
-															>
-																<path
-																	fillRule="evenodd"
-																	clipRule="evenodd"
-																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
-																	fill="white"
-																/>
-															</svg>
-														</div>
-													</Link>
-													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
-												</div>
 												<div className="w-full lg:p-8 lg:py-12 py-5 border border-[#1F1F1F] mt-10 rounded-xl flex-col  lg:flex gap-8 relative hidden">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
 															Our Web Design Competed Projects
 														</h4>
 														<p className="text-sm text-[#808080]">
-															At DigitX, we are dedicated to creating
+															At Deltospark, we are dedicated to creating
 															transformative mobile apps that empower your
 															business and enrich your users experiences.
 														</p>
@@ -1026,20 +1037,61 @@ const Services = () => {
 												} transition-opacity duration-500`}
 											>
 												<div className="flex flex-col gap-3">
-													<h4 className="text-lg font-semibold">Web Design2</h4>
+													<h4 className="text-lg font-semibold">Web Design</h4>
 													<p className="text-[#8C8C8C] text-sm">
-														Web Design is the art and science of creating
-														visually appealing and user-friendly websites that
-														reflect your brand identity and resonate with your
-														target audience. At DigitX, our web design process
-														involves a careful blend of creativity, user
-														experience (UX) design, and cutting-edge
-														technologies. We take the time to understand your
-														business goals, target market, and unique selling
-														points to create a website that not only looks great
-														but also drives results.
-													</p>
+													At Deltosparks, web design is about creating visually appealing, user-friendly websites that reflect your brand and engage your audience. We blend creativity, UX design, and cutting-edge technologies to understand your business goals and deliver a site that looks great and drives results.													</p>
 												</div>
+												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+															Web Design Portfolio
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Check out some of our most recent Web Design
+															projects in the table below
+														</p>
+													</div>
+													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio1}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio2}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+													</div>
+													<Link
+														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
+														href="/#"
+													>
+														View All Projects
+														<div className="p-1 rounded-full hidden sm:block">
+															<svg
+																width="25"
+																height="24"
+																viewBox="0 0 25 24"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
+																	fill="white"
+																/>
+															</svg>
+														</div>
+													</Link>
+													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+												</div>
+
 												<div className="w-full sm:p-8 p-2  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
@@ -1158,63 +1210,13 @@ const Services = () => {
 														</div>
 													</div>
 												</div>
-												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
-													<div className="px-4 flex flex-col gap-4">
-														<h4 className="text-lg font-semibold">
-															Web Design Portfolio
-														</h4>
-														<p className="text-sm text-[#808080]">
-															Check out some of our most recent Web Design
-															projects in the table below
-														</p>
-													</div>
-													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio1}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio2}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-													</div>
-													<Link
-														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
-													>
-														View All Projects
-														<div className="p-1 rounded-full hidden sm:block">
-															<svg
-																width="25"
-																height="24"
-																viewBox="0 0 25 24"
-																fill="none"
-																xmlns="http://www.w3.org/2000/svg"
-															>
-																<path
-																	fillRule="evenodd"
-																	clipRule="evenodd"
-																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
-																	fill="white"
-																/>
-															</svg>
-														</div>
-													</Link>
-													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
-												</div>
 												<div className="w-full lg:p-8 lg:py-12 py-5 border border-[#1F1F1F] mt-10 rounded-xl flex-col  lg:flex gap-8 relative hidden">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
 															Our Web Design Competed Projects
 														</h4>
 														<p className="text-sm text-[#808080]">
-															At DigitX, we are dedicated to creating
+															At Deltospark, we are dedicated to creating
 															transformative mobile apps that empower your
 															business and enrich your users experiences.
 														</p>
@@ -1288,20 +1290,61 @@ const Services = () => {
 												} transition-opacity duration-500`}
 											>
 												<div className="flex flex-col gap-3">
-													<h4 className="text-lg font-semibold">Web Design3</h4>
+													<h4 className="text-lg font-semibold">AI/Machine Learning</h4>
 													<p className="text-[#8C8C8C] text-sm">
-														Web Design is the art and science of creating
-														visually appealing and user-friendly websites that
-														reflect your brand identity and resonate with your
-														target audience. At DigitX, our web design process
-														involves a careful blend of creativity, user
-														experience (UX) design, and cutting-edge
-														technologies. We take the time to understand your
-														business goals, target market, and unique selling
-														points to create a website that not only looks great
-														but also drives results.
-													</p>
+													AI and machine learning at Deltosparks optimize your business with predictive analytics, natural language processing, and intelligent automation. We blend creativity with cutting-edge technologies to understand your business goals and deliver data-driven solutions that drive results.													</p>
 												</div>
+												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+														AI/Machine Learning Portfolio
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Check out some of our most recent Web Design
+															projects in the table below
+														</p>
+													</div>
+													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio1}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio2}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+													</div>
+													<Link
+														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
+														href="/#"
+													>
+														View All Projects
+														<div className="p-1 rounded-full hidden sm:block">
+															<svg
+																width="25"
+																height="24"
+																viewBox="0 0 25 24"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
+																	fill="white"
+																/>
+															</svg>
+														</div>
+													</Link>
+													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+												</div>
+
 												<div className="w-full sm:p-8 p-2  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
@@ -1420,63 +1463,13 @@ const Services = () => {
 														</div>
 													</div>
 												</div>
-												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
-													<div className="px-4 flex flex-col gap-4">
-														<h4 className="text-lg font-semibold">
-															Web Design Portfolio
-														</h4>
-														<p className="text-sm text-[#808080]">
-															Check out some of our most recent Web Design
-															projects in the table below
-														</p>
-													</div>
-													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio1}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio2}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-													</div>
-													<Link
-														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
-													>
-														View All Projects
-														<div className="p-1 rounded-full hidden sm:block">
-															<svg
-																width="25"
-																height="24"
-																viewBox="0 0 25 24"
-																fill="none"
-																xmlns="http://www.w3.org/2000/svg"
-															>
-																<path
-																	fillRule="evenodd"
-																	clipRule="evenodd"
-																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
-																	fill="white"
-																/>
-															</svg>
-														</div>
-													</Link>
-													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
-												</div>
 												<div className="w-full lg:p-8 lg:py-12 py-5 border border-[#1F1F1F] mt-10 rounded-xl flex-col  lg:flex gap-8 relative hidden">
 													<div className="px-4 flex flex-col gap-4">
 														<h4 className="text-lg font-semibold">
 															Our Web Design Competed Projects
 														</h4>
 														<p className="text-sm text-[#808080]">
-															At DigitX, we are dedicated to creating
+															At Deltospark, we are dedicated to creating
 															transformative mobile apps that empower your
 															business and enrich your users experiences.
 														</p>
@@ -1541,11 +1534,266 @@ const Services = () => {
 												</div>
 											</div>
 										</ScrollAnimation>
+										<ScrollAnimation variants={scaleUpVariants}>
+											<div
+												className={`web-design ${
+													currentVisibleIndex === 4
+														? "opacity-100 h-auto"
+														: "opacity-0 h-0"
+												} transition-opacity duration-500`}
+											>
+												<div className="flex flex-col gap-3">
+													<h4 className="text-lg font-semibold">Blockchain Development</h4>
+													<p className="text-[#8C8C8C] text-sm">
+													Blockchain development at Deltosparks includes dApp creation, wallet development, and EVM-based chains. We build secure, decentralized applications and wallets, deploy nodes, and use cutting-edge technologies to deliver robust, transparent solutions that align with your business goals and drive results.													</p>
+												</div>
+												<div className="w-full px-2  sm:py-12 py-8  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8 relative">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+														Blockchain Development Portfolio
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Check out some of our most recent Web Design
+															projects in the table below
+														</p>
+													</div>
+													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio1}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
+															<Image
+																src={servicesprotfolio2}
+																className="object-contain"
+																alt=""
+															/>
+														</div>
+													</div>
+													<Link
+														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
+														href="/#"
+													>
+														View All Projects
+														<div className="p-1 rounded-full hidden sm:block">
+															<svg
+																width="25"
+																height="24"
+																viewBox="0 0 25 24"
+																fill="none"
+																xmlns="http://www.w3.org/2000/svg"
+															>
+																<path
+																	fillRule="evenodd"
+																	clipRule="evenodd"
+																	d="M5.5 12C5.5 11.4201 5.95667 10.95 6.52 10.95H15.5476L12.613 8.2069C12.207 7.80497 12.1943 7.14027 12.5848 6.72226C12.9752 6.30425 13.6209 6.29122 14.027 6.69315L18.787 11.2431C18.987 11.4411 19.1 11.7144 19.1 12C19.1 12.2856 18.987 12.5589 18.787 12.7569L14.027 17.3069C13.6209 17.7088 12.9752 17.6958 12.5848 17.2778C12.1943 16.8598 12.207 16.1951 12.613 15.7931L15.5476 13.05H6.52C5.95667 13.05 5.5 12.5799 5.5 12Z"
+																	fill="white"
+																/>
+															</svg>
+														</div>
+													</Link>
+													<div className=" rounded-b-xl absolute bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+												</div>
+
+												<div className="w-full sm:p-8 p-2  border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex gap-8">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+															Key Features
+														</h4>
+													</div>
+													<div className="w-full h-full flex flex-col gap-10">
+														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
+															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
+																<h1 className="font-semibold">
+																	Customized Design
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	We craft bespoke designs tailored to match
+																	your brand personality and industry.
+																</p>
+															</div>
+															<div className="border-r border-[#1F1F1F]"></div>
+															<div className="border-b border-[#1F1F1F]"></div>
+															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
+																<h1 className="font-semibold">
+																	Responsive Design
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Ensuring your website adapts seamlessly to
+																	different devices and screen sizes.
+																</p>
+															</div>
+														</div>
+
+														<div className="border-b border-[#1F1F1F]"></div>
+
+														<div className="flex md:flex-row flex-col gap-5 w-full h-1/2 ">
+															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
+																<h1 className="font-semibold">
+																	User-Centric Approach
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Prioritizing ease of navigation and intuitive
+																	user experience.
+																</p>
+															</div>
+															<div className="border-r border-[#1F1F1F]"></div>
+															<div className="border-b border-[#1F1F1F]"></div>
+															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
+																<h1 className="font-semibold">
+																	Visual Elements
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Incorporating engaging visuals, graphics, and
+																	animations to enhance the overall appeal.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div className="w-full sm:p-8 p-2 border border-[#1F1F1F] mt-10 rounded-xl flex-col  flex  gap-8">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+															Design Process
+														</h4>
+														<p className="text-sm text-[#808080]">
+															Our Web Design process follows a systematic
+															approach to deliver a website that aligns
+															perfectly with your business needs and branding.
+															Here s an overview of our design process
+														</p>
+													</div>
+													<div className="w-full h-full flex flex-col gap-10">
+														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
+															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
+																<h1 className="font-semibold">
+																	Customized Design
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	We craft bespoke designs tailored to match
+																	your brand personality and industry.
+																</p>
+															</div>
+															<div className="border-r border-[#1F1F1F]"></div>
+															<div className="border-b border-[#1F1F1F] "></div>
+															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
+																<h1 className="font-semibold">
+																	Responsive Design
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Ensuring your website adapts seamlessly to
+																	different devices and screen sizes.
+																</p>
+															</div>
+														</div>
+
+														<div className="border-b border-[#1F1F1F]"></div>
+
+														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2 ">
+															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
+																<h1 className="font-semibold">
+																	User-Centric Approach
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Prioritizing ease of navigation and intuitive
+																	user experience.
+																</p>
+															</div>
+															<div className="border-r border-[#1F1F1F]"></div>
+															<div className="border-b border-[#1F1F1F]"></div>
+															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
+																<h1 className="font-semibold">
+																	Visual Elements
+																</h1>
+																<p className="text-sm text-[#8C8C8C]">
+																	Incorporating engaging visuals, graphics, and
+																	animations to enhance the overall appeal.
+																</p>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div className="w-full lg:p-8 lg:py-12 py-5 border border-[#1F1F1F] mt-10 rounded-xl flex-col  lg:flex gap-8 relative hidden">
+													<div className="px-4 flex flex-col gap-4">
+														<h4 className="text-lg font-semibold">
+															Our Web Design Competed Projects
+														</h4>
+														<p className="text-sm text-[#808080]">
+															At Deltospark, we are dedicated to creating
+															transformative mobile apps that empower your
+															business and enrich your users experiences.
+														</p>
+														<div className="flex flex-col gap-5">
+															<div className="w-full h-14 rounded-xl border border-[#1F1F1F] flex">
+																<h3 className="w-1/3 p-4">Project Name</h3>
+																<h3 className="w-1/3 p-4 border-x border-[#1F1F1F]">
+																	Industry
+																</h3>
+																<h3 className="w-1/3 p-4">Website URL</h3>
+															</div>
+															<div className="w-full h-40 border border-[#1F1F1F] rounded-xl">
+																<div className="h-1/3 w-full flex">
+																	<div className="text-sm w-1/3 h-full p-4 font-thin">
+																		{" "}
+																		GlobalEarth Eco Store
+																	</div>
+																	<div className=" text-sm w-1/3 h-full p-4 font-thin border-x border-[#1F1F1F]">
+																		{" "}
+																		E-commerce
+																	</div>
+																	<Link
+																		href={"www.globaltechsolutions.com"}
+																		className="text-sm w-1/3 h-full p-4 font-thin"
+																	>
+																		www.globaltechsolutions.com{" "}
+																	</Link>
+																</div>
+																<div className="h-1/3 w-full border-y border-[#1F1F1F] flex">
+																	<div className="text-sm w-1/3 h-full p-4 font-thin">
+																		{" "}
+																		GreenEarth Eco Store
+																	</div>
+																	<div className="text-sm w-1/3 h-full p-4 font-thin border-x border-[#1F1F1F]">
+																		Design Agency
+																	</div>
+																	<Link
+																		href={"www.greenearthecostore.com"}
+																		className="text-sm w-1/3 h-full p-4 font-thin"
+																	>
+																		www.greenearthecostore.com
+																	</Link>
+																</div>
+																<div className="h-1/3 w-full flex">
+																	<div className=" text-sm w-1/3 h-full p-4 font-thin">
+																		{" "}
+																		TechGuru Inc.
+																	</div>
+																	<div className="text-sm w-1/3 h-full p-4 font-thin border-x border-[#1F1F1F]">
+																		Technology
+																	</div>
+																	<Link
+																		href="WWW.techguruinc.com"
+																		className="w-1/3 h-full p-4 font-thin text-sm"
+																	>
+																		www.techguruinc.com
+																	</Link>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</ScrollAnimation>
+
 									</div>
 								</ScrollAnimation>
 							</div>
 						</ScrollAnimation>
 					</div>
+					
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] mx-auto gap-10 relative p-2 sm:p-10">
@@ -1553,7 +1801,7 @@ const Services = () => {
 							Success <span className="text-[#808080]">Stories</span>
 						</h1>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
-							At DigitX, our success is defined by the achievements of our
+							At Deltospark, our success is defined by the achievements of our
 							valued clients. We take immense pride in the transformative impact
 							our digital solutions have had on their businesses. Here are some
 							inspiring success stories that highlight the outcomes of our
@@ -2117,13 +2365,9 @@ const Services = () => {
 								Ready to Transform Your Digital Presence?
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
-								Take the first step towards digital success with Deltosparkby your
-								side. Our team of experts is eager to craft tailored solutions
-								that drive growth for your business. Whether you need a stunning
-								website, a powerful mobile app, or a data-driven marketing
-								campaign, we ve got you covered. Let s embark on this
-								transformative journey together.
-							</p>
+							Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
+
+</p>
 						</div>
 						<div className="mt-12 flex flex-col items-center gap-3">
 						<span className="text-sm text-center font-semibold">
