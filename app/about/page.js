@@ -1515,7 +1515,7 @@ const About = () => {
 				</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
-				<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] p-2 sm:p-10 mx-auto gap-10">
+				{/* <div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] p-2 sm:p-10 mx-auto gap-10">
 					<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
 						<span className="text-[#808080]">Our</span> Achievements
 					</h1>
@@ -1747,7 +1747,7 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 				<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] p-2 sm:p-10 mx-auto gap-10">

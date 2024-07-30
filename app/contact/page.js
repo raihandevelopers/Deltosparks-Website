@@ -716,7 +716,7 @@ const Contact = () => {
 						</div>
 
 						<div className="h-[390px] w-full flex justify-center items-center">
-							<h1 className="text-4xl">LOGO</h1>
+      <img src="/deltospark big logo.png" alt="Logo" />
 						</div>
 					</div>
 				</ScrollAnimation>

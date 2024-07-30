@@ -204,9 +204,10 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-						<div className="w-1/2 text-5xl justify-center items-center lg:flex bg-[#090909a2] hidden">
-							LOGO
-						</div>
+					    <div className="w-1/2 text-5xl justify-center items-center lg:flex bg-[#090909a2] hidden">
+      <img src="/biglogo.png" alt="Logo" />
+    </div>
+
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>

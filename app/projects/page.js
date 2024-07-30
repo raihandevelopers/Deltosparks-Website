@@ -169,17 +169,7 @@ const Projects = () => {
 							Vision
 						</h1>
 						<p className="text-[#c7c5c5]  sm:text-sm text-xs">
-							At Deltospark, we are committed to empowering your digital vision with
-							innovative solutions tailored to your unique needs. Our team of
-							skilled professionals, coupled with cutting-edge technologies,
-							ensures that we deliver exceptional results that elevate your
-							online presence. Whether it s captivating web designs, seamless
-							app development, effective digital marketing, or other digital
-							solutions, we are dedicated to bringing your ideas to life and
-							helping your business thrive in the dynamic digital landscape.
-							Partner with us today, and let s unlock endless possibilities for
-							your digital success!
-						</p>
+						At Deltosparks, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our skilled professionals and cutting-edge technologies ensure exceptional results that elevate your online presence. Whether it’s seamless website and app development, AI/ML innovations, blockchain and dApp development, or SEO and digital marketing, we bring your ideas to life and help your business thrive in the dynamic digital landscape. Partner with us today, and let’s unlock endless possibilities for your digital success!						</p>
 					</div>
 				</div>
 			</ScrollAnimation>
