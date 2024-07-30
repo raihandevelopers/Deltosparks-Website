@@ -172,7 +172,7 @@ const Services = () => {
 								<span className="text-[#666666]">Digital Solutions</span>
 							</h1>
 							<p className="text-[#c7c5c5] sm:text-sm text-xs">
-							At Deltosparks, we offer a comprehensive suite of digital solutions designed to propel your business to new heights. Our skilled team leverages cutting-edge technologies to deliver exceptional results, from seamless website development and app development to robust backend solutions, AI/ML innovations, blockchain technology and dApp development, as well as SEO and digital marketing strategies. We cover every aspect of your digital needs with a passion for innovation and excellence.							</p>
+							At Deltospark, we offer a comprehensive suite of digital solutions designed to propel your business to new heights. Our skilled team leverages cutting-edge technologies to deliver exceptional results, from seamless website development and app development to robust backend solutions, AI/ML innovations, blockchain technology and dApp development, as well as SEO and digital marketing strategies. We cover every aspect of your digital needs with a passion for innovation and excellence.							</p>
 						</div>
 					</div>
 				</ScrollAnimation>
@@ -194,7 +194,7 @@ const Services = () => {
 											<h3 className="text-xl font-semibold">Website Development
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-											Unlock your online potential with Deltosparks. Our web development services create responsive, dynamic websites tailored to your needs, ensuring seamless user experiences across all devices. From e-commerce platforms to interactive web applications, our expert developers bring your vision to life, making your online journey a success.											</p>
+											Unlock your online potential with Deltospark. Our web development services create responsive, dynamic websites tailored to your needs, ensuring seamless user experiences across all devices. From e-commerce platforms to interactive web applications, our expert developers bring your vision to life, making your online journey a success.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -290,7 +290,7 @@ const Services = () => {
 
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-											Elevate your brand aesthetics with Deltosparks. Our web design services create visually striking, user-friendly interfaces that reflect your brand's identity. Our creative team blends aesthetics with functionality, delivering captivating user experiences that keep visitors coming back. Let us transform your online presence and showcase your brand's true essence.											</p>
+											Elevate your brand aesthetics with Deltospark. Our web design services create visually striking, user-friendly interfaces that reflect your brand's identity. Our creative team blends aesthetics with functionality, delivering captivating user experiences that keep visitors coming back. Let us transform your online presence and showcase your brand's true essence.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -338,7 +338,7 @@ const Services = () => {
 											AI & Machine Learning
 											</h3>
 											<p className="text-sm text-center text-[#8C8C8C]">
-											Drive your business forward with Deltosparks. Our AI and machine learning services optimize operations with predictive analytics, natural language processing, and intelligent automation. Stay ahead with our data-driven solutions and harness the full potential of AI and machine learning.											</p>
+											Drive your business forward with Deltospark. Our AI and machine learning services optimize operations with predictive analytics, natural language processing, and intelligent automation. Stay ahead with our data-driven solutions and harness the full potential of AI and machine learning.											</p>
 										</div>
 										<div className="flex justify-between items-center w-[90%]">
 											<span className="text-xs text-[#666666] ">
@@ -381,7 +381,7 @@ const Services = () => {
 							<span className="text-[#808080]">Categories of</span> Services
 						</h1>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
-						At Deltosparks, we provide exceptional digital solutions tailored to your unique business needs. Our services include web design, app development, web development, AI/ML, blockchain technology, dApp development, and SEO/digital marketing.						</p>
+						At Deltospark, we provide exceptional digital solutions tailored to your unique business needs. Our services include web design, app development, web development, AI/ML, blockchain technology, dApp development, and SEO/digital marketing.						</p>
 						<ScrollAnimation variants={scaleUpVariants}>
 							<div className="w-full lg:flex-row flex-col flex gap-5">
 								<div className="lg:w-[22%] flex-wrap  flex flex-row  gap-2 lg:flex-col p-5 lg:justify-start justify-center lg:items-stretch items-center">
@@ -2117,7 +2117,7 @@ const Services = () => {
 								Ready to Transform Your Digital Presence?
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
-								Take the first step towards digital success with Deltosparksby your
+								Take the first step towards digital success with Deltosparkby your
 								side. Our team of experts is eager to craft tailored solutions
 								that drive growth for your business. Whether you need a stunning
 								website, a powerful mobile app, or a data-driven marketing

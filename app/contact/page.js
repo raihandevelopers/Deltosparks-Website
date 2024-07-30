@@ -679,7 +679,7 @@ const Contact = () => {
 									<div className="w-[70%] mx-auto min-h-[120px] flex flex-col gap-5 justify-center items-center">
 										<h4 className=" text-center text-lg">Thank You!</h4>
 										<p className="text-sm text-[#808080] text-center">
-											For considering Deltosparksfor your digital needs. We look forward
+											For considering Deltosparkfor your digital needs. We look forward
 											to connecting with you and being part of your digital success!
 										</p>
 									</div>
@@ -695,7 +695,7 @@ const Contact = () => {
 								Ready to Transform Your Digital Presence?
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
-							Take the first step towards digital success with Deltosparks by
+							Take the first step towards digital success with Deltospark by
 								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 							</p>
 						</div>

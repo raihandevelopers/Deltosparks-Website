@@ -65,19 +65,19 @@ export default function Home() {
 	const testimonials = [
 		{
 			quote:
-				"Deltosparks transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
+				"Deltospark transformed our online presence, bringing our vision to life. The website they built for us is not only visually stunning but also highly functional.",
 			name: "Jane Doe",
 			title: "CEO of TechWorld",
 		},	
 		{
-			quote: "Deltosparks has been amazing, handling our mobile app, web development, backend, and AI needs. We've collaborated for over 1.5 years, with great customer feedback.",
+			quote: "Deltospark has been amazing, handling our mobile app, web development, backend, and AI needs. We've collaborated for over 1.5 years, with great customer feedback.",
 			name: "Shaiquel Jilani",
 			title: "Founder of Pinksurfing",
 		  },
 		  
 		
 		  {
-			quote: "Deltosparks developed an excellent e-commerce site with multivendor functionality for us. There was no delay in image loading, and the website runs smoothly and efficiently.",
+			quote: "Deltospark developed an excellent e-commerce site with multivendor functionality for us. There was no delay in image loading, and the website runs smoothly and efficiently.",
 			name: "Alex Johnson",
 			title: "CTO Furniture E-commerce",
 
@@ -85,12 +85,12 @@ export default function Home() {
 		  
 		{
 			quote:
-				"We have seen a significant increase in traffic and engagement since Deltosparks revamped our site. Their team's expertise is unmatched.",
+				"We have seen a significant increase in traffic and engagement since Deltospark revamped our site. Their team's expertise is unmatched.",
 			name: "John Smith",
 			title: "Marketing Director at SalesCorp",
 		},
 		{
-			quote: "We've collaborated on numerous projects, primarily focused on website development and saas development. Deltosparks consistently delivers outstanding results.",
+			quote: "We've collaborated on numerous projects, primarily focused on website development and saas development. Deltospark consistently delivers outstanding results.",
 			name: "Susie Ayala",
 			title: "Founder of S&E Optimises",
 		  }
@@ -179,12 +179,12 @@ export default function Home() {
 								</h1>
 
 								<p className="text-sm  text-[#808080]  min-h-[120px]">
-									Welcome to Deltosparks, your ultimate 360° tech hub. We
+									Welcome to Deltospark, your ultimate 360° tech hub. We
 									specialize in everything from website development and app
 									development to backend solutions, AI, machine learning,
 									blockchain, and data-driven marketing. Our mission is simple:
 									to help your business thrive in the digital age. With
-									Deltosparks, you're not just getting a service provider—you're
+									Deltospark, you're not just getting a service provider—you're
 									gaining a partner committed to your success.
 								</p>
 								<div className="w-[260px] h-[89px] flex flex-col gap-3">
@@ -212,16 +212,16 @@ export default function Home() {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] mx-auto gap-5 p-4 sm:px-10">
 						<h1 className="text-center text-3xl font-semibold xl:w-[500px]">
-							Reasons to Choose Deltosparks for{" "}
+							Reasons to Choose Deltospark for{" "}
 							<span className="text-[#808080]">Your Digital Journey</span>
 						</h1>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px]">
-							Partner with Deltosparks and Transform Your Business. Unlock a
-							world of advantages with Deltosparks. Boost your brand visibility,
+							Partner with Deltospark and Transform Your Business. Unlock a
+							world of advantages with Deltospark. Boost your brand visibility,
 							engage customers like never before, and see a higher ROI with our
 							cutting-edge solutions. Our expert team crafts tailored strategies
 							to meet your unique business needs, ensuring you stay ahead in the
-							digital game. Experience lasting success with Deltosparks—your
+							digital game. Experience lasting success with Deltospark—your
 							partner in innovation.
 						</p>
 						<div className="Items-container gap-[40px] flex justify-between flex-col mt-16 transition-all duration-300">
@@ -364,7 +364,7 @@ export default function Home() {
 											<p className="text-sm text-center text-[#8C8C8C]">
 												Unlock Your Online Potential In today s digital age, a
 												powerful web presence is essential for any business. At
-												Deltosparks, our web development services empower you to
+												Deltospark, our web development services empower you to
 												stand out in the crowded online landscape. We create
 												responsive and dynamic websites tailored to your unique
 												needs, ensuring seamless user experiences across all
@@ -415,7 +415,7 @@ export default function Home() {
 											<p className="text-sm text-center text-[#8C8C8C]">
 												Elevate Your Brand Aesthetics Your website s design is a
 												reflection of your brand s identity and values.
-												Deltosparks s web design services focus on creating
+												Deltospark s web design services focus on creating
 												visually striking and user-friendly interfaces that
 												leave a lasting impact. Our creative team blends
 												aesthetics with functionality, delivering a captivating
@@ -706,7 +706,7 @@ export default function Home() {
 						</h1>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px] w-[90vw]">
 							Don t just take our word for it; hear what our satisfied clients
-							have to say about their experience with Deltosparks. We take pride
+							have to say about their experience with Deltospark. We take pride
 							in building lasting relationships and delivering exceptional
 							results.
 						</p>
@@ -1294,7 +1294,7 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 										<div className="w-3/4 h-1/3 flex flex-col items-center justify-center gap-3">
 											<h4 className="text-center">HealthTech Innovations</h4>
 											<p className="text-sm text-[#8C8C8C] text-center">
-											Deltosparks developed a user-centric mobile app for HealthTech Innovations, automating their EMR process with our automation and machine learning solutions, which helped them save $150k in ARR.
+											Deltospark developed a user-centric mobile app for HealthTech Innovations, automating their EMR process with our automation and machine learning solutions, which helped them save $150k in ARR.
 
 
 											</p>
@@ -1324,7 +1324,7 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 										<div className="w-3/4 h-1/3 flex flex-col items-center justify-center gap-3">
 											<h4 className="text-center">Pinksurfing</h4>
 											<p className="text-sm text-[#8C8C8C] text-center">
-												Deltosparks developed a user-centric mobile app for
+												Deltospark developed a user-centric mobile app for
 												HealthTech Innovations, helping them revolutionize the
 												way people track and manage their health.
 											</p>
@@ -1343,7 +1343,7 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 								Ready to Transform Your Digital Presence?
 							</h1>
 							<p className="text-sm text-center text-[#808080]">
-								Take the first step towards digital success with Deltosparks by
+								Take the first step towards digital success with Deltospark by
 								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 
 

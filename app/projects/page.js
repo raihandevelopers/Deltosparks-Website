@@ -1651,7 +1651,7 @@ const Projects = () => {
 						Key Features <span className="text-[#808080]">of Our Projects</span>
 					</h1>
 					<p className="text-sm text-[#808080] text-center lg:w-[900px]">
-						Partnering with Deltosparksoffers a multitude of advantages. Experience
+						Partnering with Deltosparkoffers a multitude of advantages. Experience
 						increased brand visibility, improved customer engagement, and higher
 						ROI. Our tailored solutions are designed to meet your unique
 						business needs, ensuring lasting success.
@@ -2402,7 +2402,7 @@ const Projects = () => {
 							Ready to Transform Your Digital Presence?
 						</h1>
 						<p className="text-sm text-center text-[#808080]">
-							Take the first step towards digital success with Deltosparksby your
+							Take the first step towards digital success with Deltosparkby your
 							side. Our team of experts is eager to craft tailored solutions
 							that drive growth for your business. Whether you need a stunning
 							website, a powerful mobile app, or a data-driven marketing
