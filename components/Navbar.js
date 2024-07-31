@@ -17,7 +17,9 @@ const Navbar = () => {
 			<div className="sticky top-0 z-50">
 				<nav className=" z-50 w-full px-[40px] lg:px-[80px]  py-[20px] flex flex-col bg-black relative backdrop-filter backdrop-blur-md bg-opacity-20 text-white  ">
 					<div className="flex items-center justify-between w-full">
-						<Link href={"/"}>LoGo</Link>
+					<Link href="/" className="font-bold">
+                DELTOSPARK
+            </Link>
 						<div className="">
 							<ul className="md:flex gap-[10px] h-[42px]  items-center justify-center  hidden">
 								<Link
