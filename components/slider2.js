@@ -39,14 +39,14 @@ const CustomSlider = () => {
 					<div
 						key={index}
 						onClick={() => openModal(index)}
-						className="cursor-pointer"
+						className="cursor-pointer "
 					>
 						<Image
 							src={image}
 							alt={`Slide ${index}`}
 							width={1500}
 							height={1500}
-							className="w-full max-h-[400px] min-h-[250px] object-fill rounded-xl"
+							className="w-full h-[300px] md:h-[450px] rounded-xl object-contain"
 						/>
 					</div>
 				))}
@@ -60,7 +60,7 @@ const CustomSlider = () => {
 								<div key={index}>
 									<Image
 										src={image}
-										className="w-full max-h-[450px] min-h-[250px] object-fill rounded-xl"
+										className="w-full max-h-[450px] min-h-[250px] object-contain rounded-xl"
 										width={5000}
 										height={5000}
 										alt=""

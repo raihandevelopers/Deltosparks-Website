@@ -6,9 +6,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import servicesprotfolio1 from "@/public/servicesprotfolio1.jpg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
+import mobile from "@/public/Pinksurfing App and Ecommerce/1.png"
 import Link from "next/link";
 
-const images = [servicesprotfolio1, servicesprotfolio2, servicesprotfolio1];
+const images = [servicesprotfolio1, servicesprotfolio2, servicesprotfolio1,mobile];
 
 const CustomSlider = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,28 +40,28 @@ const CustomSlider = () => {
 					<div
 						key={index}
 						onClick={() => openModal(index)}
-						className="cursor-pointer"
+						className="cursor-pointer "
 					>
 						<Image
 							src={image}
 							alt={`Slide ${index}`}
 							width={1500}
 							height={1500}
-							className="w-full max-h-[400px] min-h-[250px] object-fill rounded-xl"
+							className="w-full h-[300px] md:h-[450px] rounded-xl object-contain"
 						/>
 					</div>
 				))}
 			</Slider>
 
 			{isModalOpen && (
-				<div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md flex justify-center items-center z-50">
-					<div className="relative max-w-screen-lg w-full">
+				<div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md flex  justify-center items-center z-50">
+					<div className="relative max-w-screen-lg w-full ">
 						<Slider {...settings} initialSlide={currentSlide}>
 							{images.map((image, index) => (
 								<div key={index}>
 									<Image
 										src={image}
-										className="w-full max-h-[450px] min-h-[250px] object-fill rounded-xl"
+										className="w-full max-h-[450px] min-h-[250px] object-contain rounded-xl"
 										width={5000}
 										height={5000}
 										alt=""
