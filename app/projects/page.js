@@ -191,7 +191,7 @@ const Projects = () => {
 									<CustomSlider />
 									<div className="flex justify-between items-center px-4 mt-6 relative">
 										<h3 className="sm:text-base text-sm">
-											E-Commerce Revolution
+											Pinksurfing App and Ecommerce
 										</h3>
 										<button
 											onClick={() => toggleVisibility(0)}
@@ -382,7 +382,7 @@ const Projects = () => {
 													stroke-linejoin="round"
 												/>
 											</svg>
-											<span className="text-xs text-[#A6A6A6]">E-commerce</span>
+											<span className="text-xs text-[#A6A6A6]">Mobile App and Ecommerce</span>
 										</Link>
 										<Link
 											href={""}
@@ -417,7 +417,7 @@ const Projects = () => {
 												/>
 											</svg>
 											<span className="text-xs text-[#A6A6A6]">
-												Web Design & Development
+												Mobile App & Web Development
 											</span>
 										</Link>
 										<Link
@@ -453,7 +453,7 @@ const Projects = () => {
 												/>
 											</svg>
 											<span className="text-xs text-[#A6A6A6]">
-												Web Design & Development
+												AI & Blockchain
 											</span>
 										</Link>
 									</div>
@@ -462,11 +462,7 @@ const Projects = () => {
 											<h4 className="font-light">Project Description</h4>
 											<p className="text-sm text-[#8C8C8C]">
 												{" "}
-												A dynamic e-commerce platform that revolutionized online
-												shopping for fashion enthusiasts. The website showcases
-												the latest trends, offers personalized recommendations,
-												and seamless checkout options.
-											</p>
+												PinkSurfing is a pioneering platform combining Blockchain technology with a text messenger-based business hub, multi-vendor e-commerce marketplace, and a retro wallet. It integrates multiple e-commerce vendors, enabling users to shop securely and cost-effectively while using a dual-functioning crypto wallet.											</p>
 										</div>
 										<ScrollAnimation>
 											<div
@@ -481,7 +477,7 @@ const Projects = () => {
 														<div className="lg:w-1/4 lg:items-start items-center h-full p-4 justify-center flex flex-col gap-2">
 															<h4 className="font-thin text-sm">Category</h4>
 															<span className="font-light lg:text-base text-sm">
-																E-commerce
+																Mobile App & E-commerce
 															</span>
 														</div>
 														<div className="border-r border-[#1F1F1F]"></div>
@@ -497,7 +493,7 @@ const Projects = () => {
 														<div className="lg:w-1/4 lg:items-start items-center h-full p-4 justify-center flex flex-col gap-2">
 															<h4 className="font-thin text-sm">Start Date</h4>
 															<span className="font-light lg:text-base text-sm">
-																January 15, 2023
+																January 15, 2024
 															</span>
 														</div>
 														<div className="border-r border-[#1F1F1F]"></div>
@@ -507,7 +503,7 @@ const Projects = () => {
 																Completed Date
 															</h4>
 															<span className="font-light lg:text-base text-sm">
-																May 15, 2023
+																May 20, 2024
 															</span>
 														</div>
 													</div>
@@ -818,66 +814,7 @@ const Projects = () => {
 															</svg>
 														</div>
 													</div>
-													<div className="w-[100%] min-h-[100px]  flex flex-col gap-4 rounded-xl border border-[#1F1F1F] p-4">
-														<div className=" px-4">
-															<h4>Team Members</h4>
-														</div>
-														<div className="flex flex-col items-center sm:flex-row lg:gap-8 gap-2 justify-center min-h-[130px] ">
-															<div className="sm:w-[33%] w-[250px] h-[130px] border border-[#1F1F1F] rounded-xl p-4">
-																<div className="h-[30%]">
-																	<h4>Web Developer</h4>
-																</div>
-																<div className="w-full h-[70%] flex justify-center sm:justify-start items-center gap-8">
-																	<div className="h-full sm:w-[30%] flex  items-center relative">
-																		<div className="rounded-full w-12 h-12 border border-[#1F1F1F] bg-[#0f0f0f]">
-																			<Image
-																				height={200}
-																				src={avatar1}
-																				alt=""
-																			/>
-																		</div>
-																		<div className="rounded-full w-12 h-12 border border-[#1F1F1F] bg-[#0f0f0f] absolute left-5">
-																			<Image
-																				height={200}
-																				src={avatar2}
-																				alt=""
-																			/>
-																		</div>
-																	</div>
-																	<div className="h-full sm:w-[50%] text-[10px] lg:text-sm flex-col flex justify-center gap-1">
-																		<span>John Smith, </span>
-																		<span>Emily Johnson</span>
-																	</div>
-																</div>
-															</div>
-															<div className="sm:w-[33%] w-[250px] h-[130px] border border-[#1F1F1F] rounded-xl p-4">
-																<div className="h-[30%]">
-																	<h4>Web Develop</h4>
-																</div>
-																<div className="h-[70%] gap-2 justify-center sm:justify-start flex items-center">
-																	<div className="w-12 h-12 rounded-full border border-[#1F1F1F]">
-																		<Image height={200} src={avatar1} alt="" />
-																	</div>
-																	<span className="lg:text-sm text-[10px]">
-																		Michael Williams
-																	</span>
-																</div>
-															</div>
-															<div className="sm:w-[33%] w-[250px] h-[130px] border border-[#1F1F1F] rounded-xl p-4">
-																<div className="h-[30%]">
-																	<h4>Web Develop</h4>
-																</div>
-																<div className="h-[70%] gap-2 justify-center sm:justify-start flex items-center">
-																	<div className="w-12 h-12 rounded-full border border-[#1F1F1F]">
-																		<Image height={200} src={avatar2} alt="" />
-																	</div>
-																	<span className="lg:text-sm text-[10px]">
-																		Michael Williams
-																	</span>
-																</div>
-															</div>
-														</div>
-													</div>
+
 												</div>
 												<div className="w-full min-h-[160px] flex flex-col justify-between mt-6 rounded-xl border-[#1F1F1F] border p-4">
 													<h4>Method Used</h4>
@@ -886,18 +823,7 @@ const Projects = () => {
 															<span className="sm:w-[180px] w-full  flex justify-center items-center text-sm h-[50px] border border-[#1F1F1F] rounded-full ">
 																Agile Development
 															</span>
-														</div>
-														<div className="border-r border-[#1F1F1F]"></div>
-														<div className="flex items-center justify-center sm:w-1/3">
-															<span className="sm:w-[180px] w-full  flex justify-center items-center text-sm h-[50px] border border-[#1F1F1F] rounded-full ">
-																Agile Development
-															</span>
-														</div>
-														<div className="border-r border-[#1F1F1F]"></div>
-														<div className="flex items-center justify-center ms:w-1/3">
-															<span className="sm:w-[180px] w-full flex justify-center items-center text-sm h-[50px] border border-[#1F1F1F] rounded-full ">
-																Agile Development
-															</span>
+												
 														</div>
 													</div>
 												</div>

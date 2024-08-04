@@ -1280,6 +1280,12 @@ video {
 .pt-20 {
   padding-top: 5rem;
 }
+.pb-\[177\.78\%\] {
+  padding-bottom: 177.78%;
+}
+.pb-\[88\.89\%\] {
+  padding-bottom: 88.89%;
+}
 .text-left {
   text-align: left;
 }
