@@ -26,6 +26,11 @@ import "react-toastify/dist/ReactToastify.css";
 import { Bounce } from "react-toastify";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { variants, scaleUpVariants } from "@/animation/variants";
+import servicesprotfolio1 from "@/public/servicesprotfolio1.jpg";
+import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
+import servicesprotfolio3 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
+import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
+import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
 
 export default function Home() {
 	const [isHidden1, setIsHidden1] = useState(true);
@@ -466,15 +471,14 @@ export default function Home() {
 						</p>
 						<div className="w-full min-h-[500px] flex-col lg:flex-row flex gap-10 justify-center">
 							<ScrollAnimation variants={scaleUpVariants}>
-								<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a]  to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
-									<div className="my-workCardBg w-full max-h-[300px] min-h-[200px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative">
-										<Image
-											width={140}
-											height={140}
-											src={workCardIconOne}
-											alt=""
-										/>
-										<div className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
+							<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a] to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
+  <div className="my-workCardBg w-full max-h-[400px] min-h-[300px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative overflow-hidden">
+    <Image
+      src={servicesprotfolio1} 
+      layout="fill"
+      className="object-cover"
+      alt="Project"
+    />										<div className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
 												View Projects Details
 											</Link>
@@ -517,15 +521,14 @@ export default function Home() {
 								</div>
 							</ScrollAnimation>
 							<ScrollAnimation variants={scaleUpVariants}>
-								<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a]  to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
-									<div className="my-workCardBg  w-full max-h-[300px] min-h-[200px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative">
-										<Image
-											width={130}
-											height={130}
-											src={workCardIconTwo}
-											alt=""
-										/>
-										<div className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
+							<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a] to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
+  <div className="my-workCardBg w-full max-h-[400px] min-h-[300px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative overflow-hidden">
+    <Image
+      src={servicesprotfolio3} 
+      layout="fill"
+      className="object-cover"
+      alt="Project"
+    />												<div className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
 												View Projects Details
 											</Link>
@@ -570,14 +573,14 @@ export default function Home() {
 						</div>
 						<div className="w-full min-h-[500px] flex flex-col lg:flex-row gap-10 justify-center">
 							<ScrollAnimation variants={scaleUpVariants}>
-								<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a]  to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
-									<div className="my-workCardBg w-full max-h-[300px] min-h-[200px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative">
-										<Image
-											width={140}
-											height={140}
-											src={workCardIconThree}
-											alt=""
-										/>
+							<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a] to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
+  <div className="my-workCardBg w-full max-h-[400px] min-h-[300px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative overflow-hidden">
+    <Image
+      src={servicesprotfolio4} 
+      layout="fill"
+      className="object-cover"
+      alt="Project"
+    />		
 										<div className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
 												View Projects Details
@@ -620,14 +623,14 @@ export default function Home() {
 								</div>
 							</ScrollAnimation>
 							<ScrollAnimation variants={scaleUpVariants}>
-								<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a]  to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
-									<div className="my-workCardBg w-full max-h-[300px] min-h-[200px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative">
-										<Image
-											width={130}
-											height={130}
-											src={workCardIconFour}
-											alt=""
-										/>
+							<div className="flex flex-col justify-between w-full h-full bg-gradient-to-b from-[#1a1a1a] to-transparent via-[#1a1a1a0a] md:p-10 p-4 rounded-2xl border border-[#1F1F1F]">
+  <div className="my-workCardBg w-full max-h-[400px] min-h-[300px] flex justify-center items-center border border-[#1F1F1F] rounded-2xl relative overflow-hidden">
+    <Image
+      src={servicesprotfolio5} 
+      layout="fill"
+      className="object-cover"
+      alt="Project"
+    />		
 										<div
 											className=" absolute bottom-[-25px] max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full"
 											

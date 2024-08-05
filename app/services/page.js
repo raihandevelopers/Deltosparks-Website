@@ -11,6 +11,10 @@ import cardIconThree from "@/public/cardIconThree.svg";
 import cardIconFourth from "@/public/cardIconFourth.svg";
 import servicesprotfolio1 from "@/public/servicesprotfolio1.jpg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
+import servicesprotfolio3 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
+import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
+import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
+
 import sun from "@/public/sun.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -548,14 +552,14 @@ const Services = () => {
 													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio1}
+																src={servicesprotfolio3}
 																className="object-contain"
 																alt=""
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio2}
+																src={servicesprotfolio4}
 																className="object-contain"
 																alt=""
 															/>
@@ -563,7 +567,7 @@ const Services = () => {
 													</div>
 													<Link
 														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
+														href="/projects"
 													>
 														View All Projects
 														<div className="p-1 rounded-full hidden sm:block">
@@ -799,24 +803,18 @@ const Services = () => {
 														</p>
 													</div>
 													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio1}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
-														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
-															<Image
-																src={servicesprotfolio2}
-																className="object-contain"
-																alt=""
-															/>
-														</div>
+													<div className="w-full h-[300px] md:h-[500px] rounded-lg overflow-hidden">
+														<Image
+														src={servicesprotfolio1}
+														className="object-cover w-full h-full"
+														alt=""
+														/>
 													</div>
+													</div>
+
 													<Link
 														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
+														href="/projects"
 													>
 														View All Projects
 														<div className="p-1 rounded-full hidden sm:block">
@@ -1054,14 +1052,14 @@ const Services = () => {
 													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio1}
+																src={servicesprotfolio3}
 																className="object-contain"
 																alt=""
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio2}
+																src={servicesprotfolio4}
 																className="object-contain"
 																alt=""
 															/>
@@ -1069,7 +1067,7 @@ const Services = () => {
 													</div>
 													<Link
 														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
+														href="/projects"
 													>
 														View All Projects
 														<div className="p-1 rounded-full hidden sm:block">
@@ -1307,7 +1305,7 @@ const Services = () => {
 													<div className="flex flex-col md:flex-row justify-between gap-5 px-4 w-full">
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio1}
+																src={servicesprotfolio5}
 																className="object-contain"
 																alt=""
 															/>
@@ -1322,7 +1320,7 @@ const Services = () => {
 													</div>
 													<Link
 														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
+														href="/projects"
 													>
 														View All Projects
 														<div className="p-1 rounded-full hidden sm:block">
@@ -1567,7 +1565,7 @@ const Services = () => {
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
-																src={servicesprotfolio2}
+																src={servicesprotfolio4}
 																className="object-contain"
 																alt=""
 															/>
@@ -1575,7 +1573,7 @@ const Services = () => {
 													</div>
 													<Link
 														className=" text-xs absolute h-[50px] bottom-1 min-w-[140px] bg-[#0f0f0f] z-10 flex left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center gap-2 sm:py-2 px-4 border border-[#1F1F1F] backdrop-filter backdrop-blur-sm bg-opacity-20 rounded-full"
-														href="/#"
+														href="/projects"
 													>
 														View All Projects
 														<div className="p-1 rounded-full hidden sm:block">

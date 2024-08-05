@@ -4,12 +4,25 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import servicesprotfolio1 from "@/public/servicesprotfolio1.jpg";
+import servicesprotfolio12 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
+import mobile1 from "@/public/Hov3r Web3 Marketplace/1.png";
+import mobile2 from "@/public/Hov3r Web3 Marketplace/2.png";
+import mobile3 from "@/public/Hov3r Web3 Marketplace/3.png";
+import mobile4 from "@/public/Hov3r Web3 Marketplace/4.png";
+
+
+
 import Link from "next/link";
 
-const images = [servicesprotfolio1, servicesprotfolio2, servicesprotfolio1];
-
+const images = [
+	servicesprotfolio12,
+	mobile1, 
+	mobile2, 
+	mobile3, 
+	mobile4, 
+  ];
+  
 const CustomSlider = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -53,14 +66,14 @@ const CustomSlider = () => {
 			</Slider>
 
 			{isModalOpen && (
-				<div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-					<div className="relative max-w-screen-lg w-full">
+				<div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md flex  justify-center items-center z-50">
+					<div className="relative md:w-screen-lg w-[86%] ">
 						<Slider {...settings} initialSlide={currentSlide}>
 							{images.map((image, index) => (
-								<div key={index}>
+								<div key={index} className="flex items-center ">
 									<Image
 										src={image}
-										className="w-full max-h-[450px] min-h-[250px] object-contain rounded-xl"
+										className="w-full h-[450px] min-h-[250px] object-contain rounded-xl"
 										width={5000}
 										height={5000}
 										alt=""
@@ -74,12 +87,10 @@ const CustomSlider = () => {
 						>
 							&times;
 						</button>
-						<Link
-							href={"#"}
-							className="absolute border px-2 py-1 rounded-lg left-1/2 bottom-[-50px] transform -translate-x-1/2"
-						>
-							Visit Project
-						</Link>
+						<Link href="https://hovr.site/" className="absolute border px-2 py-1 rounded-lg left-1/2 bottom-[-50px] transform -translate-x-1/2">
+    Visit Project
+</Link>
+
 					</div>
 				</div>
 			)}

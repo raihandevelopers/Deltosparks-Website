@@ -1,4 +1,4 @@
-// File: K:\Deltosparks-Website\app\services\page.js
+// File: Z:\Deltosparks-Website2\Deltosparks-Website\app\services\page.js
 import * as entry from '../../../../app/services/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

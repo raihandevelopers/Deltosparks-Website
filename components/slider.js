@@ -6,11 +6,40 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import servicesprotfolio1 from "@/public/servicesprotfolio1.jpg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
-import mobile from "@/public/Pinksurfing App and Ecommerce/1.png"
+import mobile1 from "@/public/Pinksurfing App and Ecommerce/1.png";
+import mobile2 from "@/public/Pinksurfing App and Ecommerce/2.png";
+import mobile3 from "@/public/Pinksurfing App and Ecommerce/3.png";
+import mobile4 from "@/public/Pinksurfing App and Ecommerce/4.png";
+import mobile5 from "@/public/Pinksurfing App and Ecommerce/5.png";
+import mobile6 from "@/public/Pinksurfing App and Ecommerce/6.png";
+import mobile7 from "@/public/Pinksurfing App and Ecommerce/7.png";
+import mobile8 from "@/public/Pinksurfing App and Ecommerce/8.png";
+import mobile9 from "@/public/Pinksurfing App and Ecommerce/9.png";
+import mobile10 from "@/public/Pinksurfing App and Ecommerce/10.png";
+import mobile11 from "@/public/Pinksurfing App and Ecommerce/11.png";
+import mobile12 from "@/public/Pinksurfing App and Ecommerce/12.png";
+import mobile13 from "@/public/Pinksurfing App and Ecommerce/13.png";
+
+
 import Link from "next/link";
 
-const images = [servicesprotfolio1, servicesprotfolio2, servicesprotfolio1,mobile];
-
+const images = [
+	servicesprotfolio1, 
+	mobile1, 
+	mobile2, 
+	mobile3, 
+	mobile4, 
+	mobile5, 
+	mobile6, 
+	mobile7, 
+	mobile8, 
+	mobile9, 
+	mobile10, 
+	mobile11, 
+	mobile12, 
+	mobile13
+  ];
+  
 const CustomSlider = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [currentSlide, setCurrentSlide] = useState(0);
@@ -55,13 +84,13 @@ const CustomSlider = () => {
 
 			{isModalOpen && (
 				<div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md flex  justify-center items-center z-50">
-					<div className="relative max-w-screen-lg w-full ">
+					<div className="relative md:w-screen-lg w-[86%] ">
 						<Slider {...settings} initialSlide={currentSlide}>
 							{images.map((image, index) => (
-								<div key={index}>
+								<div key={index} className="flex items-center ">
 									<Image
 										src={image}
-										className="w-full max-h-[450px] min-h-[250px] object-contain rounded-xl"
+										className="w-full h-[450px] min-h-[250px] object-contain rounded-xl"
 										width={5000}
 										height={5000}
 										alt=""
